@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Average Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculate Average</h1>
+    <form action="/calculate_average" method="post">
+        <label>Enter numbers (comma-separated):</label><br>
+        <input type="text" name="numbers" required>
+        <button type="submit">Calculate</button>
+    </form>
+
+    {% if average is not none %}
+        <h2>Average: {{ average }}</h2>
+    {% endif %}
+
+    {% if execution_time %}
+        <h3>Execution Time: {{ execution_time }}</h3>
+    {% endif %}
+
+    {% if error %}
+        <h3 style="color: red;">{{ error }}</h3>
+    {% endif %}
+</body>
+</html>
