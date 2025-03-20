@@ -21,16 +21,15 @@ The **Average Calculator** is a simple tool that allows users to calculate the a
 
 1. **Clone the repository:**
 
-```bash
-git clone https://github.com/your-username/average-calculator.git
+    git clone https://github.com/your-username/average-calculator.git
 
 ## Navigation
 
-cd average-calculator
+    cd average-calculator
 
 ## Open
 
-open index.html
+    open index.html
 
 Example
 Input: 10, 20, 30, 40, 50
@@ -58,27 +57,27 @@ Feel free to fork the repository and submit pull requests if you have suggestion
 
 1. **Clone the repository:**
 
-```bash
-git clone https://github.com/your-username/social-media-analytics.git
+
+    git clone https://github.com/your-username/social-media-analytics.git
 
 ## Navigate
 
-cd social-media-analytics
+    cd social-media-analytics
 
-npm install axios react-router-dom
+    npm install axios react-router-dom
 
-npm install -D tailwindcss
+    npm install -D tailwindcss
 
-npx tailwindcss init
+    npx tailwindcss init
 
 
 ## Depencies
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ## Run
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository and submit a pull request for any improvements or bug fixes.
