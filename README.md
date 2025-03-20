@@ -40,10 +40,6 @@ Output: 30
 ## Contributing
 Feel free to fork the repository and submit pull requests if you have suggestions for improvements.
 
-
----
-
-```markdown
 # Social Media Analytics
 
 ## Project Description
