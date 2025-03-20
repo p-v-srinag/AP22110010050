@@ -11,11 +11,6 @@ The **Average Calculator** is a simple tool that allows users to calculate the a
 - Calculate the average of those numbers.
 - Display the result to the user.
 
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
 
 ## Installation Instructions
 
