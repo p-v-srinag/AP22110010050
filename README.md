@@ -57,12 +57,6 @@ Feel free to fork the repository and submit pull requests if you have suggestion
 - Track trends and engagement rates over time.
 - Generate reports for social media performance.
 
-## Technologies Used
-
-- Python
-- Pandas
-- Matplotlib / Seaborn for Data Visualization
-- Twitter API (or other social media APIs for data fetching)
 
 ## Installation Instructions
 
@@ -74,6 +68,13 @@ git clone https://github.com/your-username/social-media-analytics.git
 ## Navigate
 
 cd social-media-analytics
+
+npm install axios react-router-dom
+
+npm install -D tailwindcss
+
+npx tailwindcss init
+
 
 ## Depencies
 
