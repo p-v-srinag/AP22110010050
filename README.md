@@ -55,7 +55,9 @@ Feel free to fork the repository and submit pull requests if you have suggestion
 
     git clone https://github.com/your-username/social-media-analytics.git
 
-## Navigate
+## Navigate 
+
+    npm create social-media-analytics
 
     cd social-media-analytics
 
@@ -65,14 +67,9 @@ Feel free to fork the repository and submit pull requests if you have suggestion
 
     npx tailwindcss init
 
-
-## Depencies
-
-    pip install -r requirements.txt
-
 ## Run
 
-    pip install -r requirements.txt
+   npm start
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository and submit a pull request for any improvements or bug fixes.
